@@ -61,6 +61,61 @@ const Academics = () => {
                         <p className='text-white phone:text-xs md:text-s xl:text-sm text-center'>The Examination Committee of Techno Main Salt Lake is a significant body that plays a critical role in the smooth conduct of examinations. The committee is responsible for the logistical functioning of all exams, including the preparation of exam schedules, allocation of examination centers, and management of exam-related activities. The committee works closely with faculty members, staff members, and external stakeholders to ensure the efficient and fair conduct of all examinations. The committee is committed to upholding the highest standards of academic integrity and ensures the timely release of examination results. The Examination Committee plays a vital role in maintaining the academic rigor and credibility of the institution's examination system, and is dedicated to ensuring a seamless examination process for all students.</p>
                     </div>
                 </div>
+
+                <div className='bg-gray-900 phone:h-120 lg:h-125 w-full flex items-center flex-col mt-10'>
+                    <div className='phone:h-14 sm:h-20 lg:h-32 phone:w-80% flex justify-center items-center border-b-[1px] border-white'>
+                        <img className='phone:h-60% hover:rotate-3 duration-200 ease-in-out cursor-pointer' src={logo} alt="" />
+                    </div>
+
+                    <div className='h-80% w-full md:h-60%  phone:mt-2 md:mt-12 flex phone:flex-col sm:flex-wrap items-center gap-2 sm:pt-4 sm:px-8'>
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-30% lg:h-40% lg:w-50%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Admission Office</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                                1. TECHNO INDIA CHINGRIGHATA CAMPUS - LB
+                                Z0, EM Bypass, Sector 3,Chingrighata, Kolkata
+                                700098, WB
+                            </p>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            2. TECHNO INDIA (2nd Floor)- EM-4/Z, Sector-V, 
+                            Salt Lake, Kolkata-70009Z, WB
+                            </p>
+                        </div>
+
+                        <div className='phone:h-15% w-80% sm:w-30% sm:h-15% lg:h-25%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Campus Address</h4>
+                            <p className='text-white phone:text-xs lg:text-s text-center'>
+                            EM-4/Z, Sector-V, Salt Lake, Kolkata-70009Z, WB
+                            </p>
+                        </div>
+
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-25%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Helpline Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            9836544416<br></br>
+                            9836544417<br></br>
+                            9836544418<br></br>
+                            9836544419<br></br>
+                            </p> 
+                        </div>
+
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-25% lg:h-30%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Contact Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            033-23575683 <br></br>
+                            033-23575684 <br></br>
+                            033-23575686 <br></br>
+                            </p> 
+                        </div>
+
+                        <div className='phone:h-15% w-80% sm:w-30% sm:h-25% lg:h-30% flex flex-col items-center phone:pt-1 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Contact Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            info@ticollege.ac.in <br></br>
+                            principal@ticollege.ac.in <br></br>
+                            </p> 
+                        </div>
+                    </div>
+                </div>
         </div>
     </>
   )
