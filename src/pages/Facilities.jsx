@@ -56,6 +56,61 @@ const Facilities = () => {
                     <h2 className='font-Montserrat text-white phone:text-sm sm:text-xl md:text-3xl xl:text-5xl w-60% border-b-[1px] lg:border-b-2 border-white text-center'>Seminars & Workshops</h2>
                     <p className='text-white phone:text-xs md:text-s xl:text-sm text-center'>Seminars and workshops play a prominent role in the efficient grooming of students at Techno Main Salt Lake. Seminars allow professionals and field experts to come under one umbrella and discuss about budding issues in various academic fields. Workshops gradually prepare promising students to work in industries by inculcating proper problem solving, strategic and technical skills. Techno Main Salt Lake organizes seminars and workshops which motivates the aspirants to dream bigger and participate in demanding tasks in their respective fields of study.</p>
                 </div>
+
+                <div className='bg-gray-900 phone:h-120 lg:h-125 w-full flex items-center flex-col mt-24'>
+                    <div className='phone:h-14 sm:h-20 lg:h-32 phone:w-80% flex justify-center items-center border-b-[1px] border-white'>
+                        <img className='phone:h-60% hover:rotate-3 duration-200 ease-in-out cursor-pointer' src={logo} alt="" />
+                    </div>
+
+                    <div className='h-80% w-full md:h-60%  phone:mt-2 md:mt-12 flex phone:flex-col sm:flex-wrap items-center gap-2 sm:pt-4 sm:px-8'>
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-30% lg:h-40% lg:w-50%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Admission Office</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                                1. TECHNO INDIA CHINGRIGHATA CAMPUS - LB
+                                Z0, EM Bypass, Sector 3,Chingrighata, Kolkata
+                                700098, WB
+                            </p>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            2. TECHNO INDIA (2nd Floor)- EM-4/Z, Sector-V, 
+                            Salt Lake, Kolkata-70009Z, WB
+                            </p>
+                        </div>
+
+                        <div className='phone:h-15% w-80% sm:w-30% sm:h-15% lg:h-25%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Campus Address</h4>
+                            <p className='text-white phone:text-xs lg:text-s text-center'>
+                            EM-4/Z, Sector-V, Salt Lake, Kolkata-70009Z, WB
+                            </p>
+                        </div>
+
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-25%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Helpline Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            9836544416<br></br>
+                            9836544417<br></br>
+                            9836544418<br></br>
+                            9836544419<br></br>
+                            </p> 
+                        </div>
+
+                        <div className='phone:h-20% w-80% sm:w-30% sm:h-25% lg:h-30%  flex flex-col items-center phone:pt-3 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Contact Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            033-23575683 <br></br>
+                            033-23575684 <br></br>
+                            033-23575686 <br></br>
+                            </p> 
+                        </div>
+
+                        <div className='phone:h-15% w-80% sm:w-30% sm:h-25% lg:h-30% flex flex-col items-center phone:pt-1 phone:px-4 phone:gap-2'>
+                            <h4 className='text-red-500 font-Montserrat phone:text-s lg:text-sm'>Contact Number</h4>
+                            <p className='text-white phone:text-xs text-center lg:text-s'>
+                            info@ticollege.ac.in <br></br>
+                            principal@ticollege.ac.in <br></br>
+                            </p> 
+                        </div>
+                    </div>
+                </div>
         </div>
     </>
   )
