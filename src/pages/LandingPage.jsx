@@ -106,19 +106,19 @@ const LandingPage = () => {
                 </div>
 
                 <div className='phone:h-10 sm:h-12 md:h-14 xl:h-20 w-80% text-white flex justify-between items-center'>
-                <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/">Home</NavLink>
-                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/explore">Explore</NavLink>
-                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/academics">Academics</NavLink>
-                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/research">Research</NavLink>
-                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/facility">Facilities</NavLink>
-                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:-translate-y-2 hover:font-semibold ease-in-out duration-300' to="/campuslife">Campus Life</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/">Home</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/explore">Explore</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/academics">Academics</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/research">Research</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/facility">Facilities</NavLink>
+                    <NavLink className='phone:text-s md:text-sm xl:text-2xl cursor-pointer hover:text-red-500 hover:font-semibold hover:underline ease-in-out duration-300' to="/campuslife">Campus Life</NavLink>
                 </div>
 
-                <div className='phone:h-44 sm:h-56 md:h-60 lg:h-100 xl:h-115 w-80% flex flex-col items-start justify-center'>
+                <div className='phone:h-44 sm:h-56 md:h-60 lg:h-100 xl:h-115 w-80% flex flex-col items-start justify-center md:items-center'>
                     <h2 className='phone:text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-Montserrat text-white'>Elevate your career at</h2>
                     <h1 className='phone:text-2xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl font-Montserrat font-bold bg-gradient-to-r from-red-400 to-red-700 text-transparent bg-clip-text'>Techno Main Salt Lake</h1>
-                    <div className='phone:h-10% md:h-15% lg:h-20% w-full flex justify-start items-center phone:mt-2 phone:gap-3 lg:gap-10'>
-                        <button className='bg-white cursor-pointer phone:text-xs lg:text-s xl:text-lg phone:px-2 phone:py-1 md:px-3 md:py-2 lg:px-5 lg:py-3 lg:rounded-3xl xl:px-10 xl:py-4 rounded-xl flex items-center justify-evenly gap-2 hover:border-4 hover:border-red-500 hover:scale-105 ease-in-out duration-150'>Apply Online <FaArrowRight /></button>
+                    <div className='phone:h-10% md:h-15% lg:h-20% w-full flex justify-start md:justify-center items-center phone:mt-2 phone:gap-3 lg:gap-10'>
+                        <button className='bg-white cursor-pointer phone:text-xs lg:text-s xl:text-lg phone:px-2 phone:py-1 md:px-3 md:py-2 lg:px-5 lg:py-3 lg:rounded-3xl xl:px-10 xl:py-4 rounded-xl flex items-center justify-evenly gap-2 hover:border-4 hover:border-red-500 ease-in-out duration-150'>Apply Online <FaArrowRight /></button>
                         <p className='phone:text-xs md:text-s lg:text-sm xl:text-lg hover:underline text-white lg:font-semibold font-Montserrat cursor-pointer'>visit our admission office</p>
                     </div>
                 </div>
